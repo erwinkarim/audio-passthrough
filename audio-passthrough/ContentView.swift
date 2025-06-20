@@ -39,3 +39,7 @@ struct ContentView: View {
         .frame(width: 400, height: 250)
     }
 }
+
+#Preview {
+    // The view to preview.
+}
