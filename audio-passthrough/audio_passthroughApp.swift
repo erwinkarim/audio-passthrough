@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct audio_passthroughApp: App {
+struct AudioLoopbackApp: App {
+    @StateObject private var audioManager = AudioManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(audioManager: audioManager)
+                .onAppear{
+                    audioManager.requestMicrophonePermission()
+                }
         }
     }
 }
+

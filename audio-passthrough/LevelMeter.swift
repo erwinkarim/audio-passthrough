@@ -1,3 +1,12 @@
+//
+//  LevelMeter.swift
+//  audio-passthrough
+//
+//  Created by Erwin Karim on 19/06/2025.
+//
+
+import SwiftUI
+
 struct LevelMeter: View {
     var level: Float  // Range: 0.0 to 1.0
 
