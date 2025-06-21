@@ -1,11 +1,13 @@
 
 # Audio passthrough
 
+![Audio passthrough icon](/blob/main/audio-passthrough/Assets.xcassets/AppIcon.appiconset/line-in-icon-macOS-Default-256x256%402x 1.png)
+
 A simple app to play audio signals from either your microphone or external line-in devices (usually USB) direct to your speakers.
 
 ## Usage Scenario
 
-I build this app because I wanted to listen to my vinyl record player on my Studio Display speakers. Mordern Macs does not seems to have in-line 3.5mm jacks anymore, but you can get USB-C adapters like [these](https://amzn.to/3G3HMM6) (Amazon affliate link) to connect your mic or analog audio devices to your Macs. However, macOS by itself can detect such signals but would not play the audio directly. There are some solutions to these like [GarageBand](https://www.apple.com/my/mac/garageband/), [Audacity](https://www.audacityteam.org/), or [Audio Hijack](https://rogueamoeba.com/audiohijack/) but they are more complicated than what I actually need. This should be a very lightweight app to listen to your old analog music playback like your old cassette or vinyl.
+I build this app because I wanted to listen to my vinyl record player on my Studio Display speakers. Mordern Macs does not seems to have in-line 3.5mm jacks anymore, but you can get USB-C adapters like [this 3.5mm](https://amzn.to/3G3HMM6) or [this RCA](https://amzn.to/445vsmA) (both are Amazon affliate link) to connect your mic or analog audio devices to your Macs. However, macOS by itself can detect such signals but would not play the audio directly. There are some solutions to these like [GarageBand](https://www.apple.com/my/mac/garageband/), [Audacity](https://www.audacityteam.org/), or [Audio Hijack](https://rogueamoeba.com/audiohijack/) but they are more complicated than what I actually need. This should be a very lightweight app to listen to your old analog music playback like your old cassette or vinyl.
 
 ## How to use
 
