@@ -34,9 +34,22 @@
 		BFC06AE42E05391400D70A8A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BFC06AE72E05586000D70A8A /* Exceptions for "audio-passthrough" folder in "audio-passthrough" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BFC06AB32E03A64100D70A8A /* audio-passthrough */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BFC06AB62E03A64100D70A8A /* audio-passthrough */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BFC06AE72E05586000D70A8A /* Exceptions for "audio-passthrough" folder in "audio-passthrough" target */,
+			);
 			path = "audio-passthrough";
 			sourceTree = "<group>";
 		};
@@ -409,8 +422,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "audio-passthrough/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Audio Passthrough";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to capture and play audio.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,8 +468,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "audio-passthrough/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Audio Passthrough";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to capture and play audio.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

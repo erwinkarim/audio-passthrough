@@ -10,3 +10,7 @@ I build this app because I wanted to listen to my vinyl record player on my Stud
 ## How to use
 
 You can download the app [here](#). Make sure you plug your USB to 3.5 microphone jack to your Mac. Start the app, select the USB device and press the 'Start lookback' button. Sound should come out from your active audio output. 
+
+## Support Me
+
+The app itself is free, but if you appreciate this app and would like to support my efforts, consider to [give me a tip through PayPal](https://www.paypal.com/paypalme/techjourneyman). Any amount is welcomed with thanks. 

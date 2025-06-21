@@ -34,12 +34,20 @@ struct ContentView: View {
             Button("Stop") {
                 audioManager.stop()
             }
+            
+            // 🚀 Donate Button
+            Button("Tip Jar") {
+                openPayPalDonation()
+            }
+            .buttonStyle(.borderedProminent)
         }
         .padding()
         .frame(width: 400, height: 250)
     }
-}
-
-#Preview {
-    // The view to preview.
+    
+    func openPayPalDonation() {
+        if let url = URL(string: "https://paypal.me/techjourneyman") {
+            NSWorkspace.shared.open(url)
+        }
+    }
 }
