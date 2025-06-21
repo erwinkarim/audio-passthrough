@@ -1,7 +1,8 @@
 
 # Audio passthrough
 
-![Audio passthrough icon](/blob/main/audio-passthrough/Assets.xcassets/AppIcon.appiconset/line-in-icon-macOS-Default-256x256%402x 1.png)
+![Audio passthrough icon](https://github.com/erwinkarim/audio-passthrough/blob/main/audio-passthrough/Assets.xcassets/AppIcon.appiconset/line-in-icon-macOS-Default-256x256%402x%201.png)
+
 
 A simple app to play audio signals from either your microphone or external line-in devices (usually USB) direct to your speakers.
 
