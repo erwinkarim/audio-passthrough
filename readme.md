@@ -12,7 +12,9 @@ I build this app because I wanted to listen to my vinyl record player on my Stud
 
 ## How to use
 
-You can download the app [here](#). Make sure you plug your USB to 3.5 microphone jack to your Mac. Start the app, select the USB device and press the 'Start lookback' button. Sound should come out from your active audio output. 
+You can download the app [here](https://github.com/erwinkarim/audio-passthrough/releases/tag/v0.1.0). Make sure you plug your USB to 3.5 microphone jack to your Mac. Start the app, select the USB device and press the 'Start loopback' button. Sound should come out from your active audio output. 
+
+Since this is a very early beta, I would appreciate some feedback on the app. Help me help you. 
 
 ## Support Me
 
