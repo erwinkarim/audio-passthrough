@@ -45,6 +45,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF48A2EE2E0D283D00C51DB5 /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
+			sourceTree = "<group>";
+		};
 		BFC06AB62E03A64100D70A8A /* audio-passthrough */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC06AE42E05391400D70A8A /* readme.md */,
+				BF48A2EE2E0D283D00C51DB5 /* assets */,
 				BFC06AB62E03A64100D70A8A /* audio-passthrough */,
 				BFC06AC52E03A64200D70A8A /* audio-passthroughTests */,
 				BFC06ACF2E03A64200D70A8A /* audio-passthroughUITests */,
@@ -128,6 +134,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				BF48A2EE2E0D283D00C51DB5 /* assets */,
 				BFC06AB62E03A64100D70A8A /* audio-passthrough */,
 			);
 			name = "audio-passthrough";
